@@ -1,0 +1,11 @@
+doctype 5
+html
+  head
+    title ECalendar Tutorial / Frontend
+    == js_tag  :master
+    == css_tag :master
+
+  body
+    .container
+      == yield
+      == render_p view_path('datepicker')

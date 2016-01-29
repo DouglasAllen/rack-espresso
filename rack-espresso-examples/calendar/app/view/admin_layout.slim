@@ -1,0 +1,11 @@
+doctype 5
+html
+  head
+    title ECalendar Tutorial / Admin
+    == js_tag  :master
+    == css_tag :master
+
+  body
+    .container
+      == yield
+      == render_p path_to_templates('datepicker.slim')
